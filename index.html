@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practica Integradora 27 de Mayo</title>
 </head>
 
 <body>
@@ -20,47 +20,87 @@
             </nav>
         </section>
         <SEction>
-            <img src="/img/Logo.png" alt""">
+            <img src="/img/Logo.png" alt="Logo">
             <ul>
-                <li><a href="/view/Categoria.html">Categoria</a></li>
-                <li><a href="/view/Pets.html">Pets</a></li>
-                <li><a href="/view/nosotros.html">Nosotros</a></li>
-                <li><a href="/view/Contactenos.html">Contactenos</a></li>
+                <li><img src="/img/pawprint 1 (1).png" alt=""><a href="/view/Categoria.html">Categoria</a></li>
+                <li><img src="/img/pawprint 1 (1).png" alt=""><a href="/view/Pets.html">Pets</a></li>
+                <li><img src="/img/pawprint 1 (1).png" alt=""><a href="/view/nosotros.html">Nosotros</a></li>
+                <li><img src="/img/pawprint 1 (1).png" alt=""><a href="/view/Contactenos.html">Contactenos</a></li>
             </ul>
         </SEction>
     </header>
     <main>
-    <SEction>
-      <img src="/img/bowl-and-pet-daities-on-green-background 1.png" width="1024" alt="">  
-      <span>¡Es un placer tenerte aquí! </span>
-      <span>¡Comederos en descuento!</span>
-      <input type="button" value="COMEDEROS">
-    </SEction>
-    <SEction>
-<img src="/img/pawprint 1.png" alt="">
-<h1>Productos Destacados</h1>
-<p><a href="/view/Comederos.html">comederos</a> -
-<a href="/view/Accesorios.html">Accesorios</a> -
-<a href="/view/Comida.html">Comida</a></p>
+        <SEction>
+            <img src="/img/bowl-and-pet-daities-on-green-background 1.png" width="1024" alt="">
+            <span>¡Es un placer tenerte aquí! </span>
+            <span>¡Comederos en descuento!</span>
+            <input type="button" value="COMEDEROS">
+        </SEction>
+        <SEction>
+            <header>
+                <img src="/img/pawprint 1.png" alt="">
+                <h1>Productos Destacados</h1>
+                <p><a href="/view/Comederos.html">comederos</a> -
+                    <a href="/view/Accesorios.html">Accesorios</a> -
+                    <a href="/view/Comida.html">Comida</a>
+                </p>
+            </header>
+            <article>
+                <img src="img/churrasquito.png" alt="">
+                <p>Juguete Churrasquito</p>
+                <p>$###</p>
+            </article>
+            <article>
+                <img src="/img/comedero.png" alt="">
+                <p>Comedero para perro</p>
+                <p>$####</p>
+            </article>
+            <article>
+                <img src="/img/Huesito.png" alt="">
+                <p>Juguete Huesito</p>
+                <p>$####</p>
+            </article>
 
-<img src="img/churrasquito.png" alt="">
-<p>Juguete Churrasquito</p>
-<p>$###</p>
-<img src="/img/comedero.png" alt="">
-<p>Comedero para perro</p>
-<p>$####</p>
-<img src="/img/Huesito.png" alt="">
-<p>Juguete Huesito</p>
-<p>$####</p>
-    </SEction>
+        </section>
+            </main>
     <section>
-     <h2>Contactenos</h2>
-     
+        <h2>Contactenos</h2>
+        <form action="/view/contacto-exitoso.html" method="get">
+            <!--<label for="fname">Nombre y Apellido:</label> -- si bien es aconsejable el uso de 
+        label lo desactive por que en la imagen estaba como un placeholder-->
+            <input type="text" id="name" name="name" placeholder="Nombre y Apellido"><br></br>
+            <!--<label for="lname">Correo Electronico:</label> -->
+            <input type="text" id="email" name="email" placeholder="ingresa tu correo electronico"><br><br>
+            <!--<label for="fname">telefono:</label>-->
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono"><br><br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="Resetear">
+            <!-- con Reset no hace nada, nose si mas adelante hay funsiones para que borren lo ingresado por el usuario-->
+        </form>
     </section>
-
-      
-
-    </main>
-    </body>
+    <section>
+        <img src="/img/enviar-correo 1.png" alt="enviar-correo">
+        <span> <img src="/img/enviar-correo 1.png" alt="enviar-correo"> Suscribite para mas Novedades<span>
+                <input type="text" id="email" name="email" placeholder="ingresa tu correo electronico"><br><br>
+                <input type="submit" value="Suscribirme">
+    </section>
+    <br></br>
+    <footer>
+        <section>
+            <img src="/img/icono-ubicacion.png" alt="icono-ubicacion">
+            <h2>Localidad</h2>
+            <p>Calle -P Provincia</p>
+            <img src="/img/Icono-telefono.png" alt="Icono-telefono">
+            <h2>Telefono</h2>
+            <p>Numero de telefono</p>
+            <img src="/img/Icono-mail.png" alt="Icono-mail">
+            <h2>Correo Electronico</h2>
+            <p>Direccion de correo</p>
+        </section>
+        <section>
+            <p>Todos los derechos reservados Front End</p>
+        </section>
+    </footer>
+</body>
 
 </html>
